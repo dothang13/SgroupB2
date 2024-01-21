@@ -17,7 +17,22 @@ body{
     border-bottom: 3px solid rgb(215, 119, 135);
     margin-bottom: 30px;
     font-weight: bold;
-    margin-right: 500px;
+    margin-right: 10px;
+    display: block;
+    width: 120px;
+}
+.core{
+    display: inline-block;
+    width: 500px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.other{
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 .ngang{
     display: inline-block;
@@ -34,6 +49,7 @@ body{
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
 }
 .anh{
     display: inline-block;
@@ -45,8 +61,7 @@ body{
     display: inline-block;
     height: 500px;
     width: 400px;
-    padding-right: 30px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-bottom: 15px;
 }
 .greeting{
@@ -69,4 +84,15 @@ body{
 }
 .content{
     font-size: 20px;
+}
+.o{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: solid;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding: 5px 5px 5px 5px;
 }
