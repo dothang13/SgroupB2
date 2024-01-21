@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.number{ 
+    color: rgb(215, 119, 135);
+    font-size: 40px;
+    font-weight: bold;
+}
+.title{
+    display: inline-block;
+    border-bottom: 3px solid rgb(215, 119, 135);
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+.ngang{
+    display: inline-block;
+    margin-right: 30px;
+}
+.button{
+    text-align: center;
+    font-size: 30px;
+    border-color: rgb(215, 119, 135);
+    border-radius: 30px;
+    font-size: 24px;
+    color: rgb(215, 119, 135);
+    text-decoration: rgb(215, 119, 135);
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.anh{
+    display: inline-block;
+    width: 500px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.noidung{
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    padding-right: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.greeting{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overview{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.career{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+.skills{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.content{
+    font-size: 20px;
+}
