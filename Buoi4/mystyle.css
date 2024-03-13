@@ -1,0 +1,30 @@
+.tron1{
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 100%;
+    text-align: center;
+    transition: all 2s ease 1s;
+}
+.tron1:hover{
+    transform: scale(1.2);
+    background-color: pink;
+    border-radius: 100%;
+}
+.tron2{
+    position: absolute;
+    top: 70px;
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 100%;
+    transition: all 2s linear 0s;
+}
+.tron2:hover{
+    transform: translateX(500px)  rotate(360deg) ;
+    background-color: greenyellow;
+    border: 1px;
+}
