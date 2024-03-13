@@ -12,7 +12,8 @@ setTimeout(() => {
         .then(res => {
             console.log(res);
             a.innerText = res.name;
-            b.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png";
+            b.src = res.sprites.front_default;
+            b.style.display = "inline-block"
         }) 
         .catch(error =>{
             console.log(error);
