@@ -10,9 +10,9 @@ setTimeout(() => {
             }
         })
         .then(res => {
-            console.log(res)
+            console.log(res);
             a.innerText = res.name;
-            b.src = res.sprites.font_default;
+            b.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png";
         }) 
         .catch(error =>{
             console.log(error);
